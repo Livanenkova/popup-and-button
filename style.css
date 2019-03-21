@@ -49,3 +49,20 @@ body{margin: 0;padding: 0;}
 	background: #fefefe;
   border-radius: 10px;
 }
+.overlay:target+.popup {
+  transform: translate(-50%, 0);
+  top: 20%;}
+
+ .close {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  padding: 0;
+  border: 2px solid #ccc;
+  color: #fefefe;
+  background-color: #000000;
+  border-radius: 10px;
+  align-items: center;
+}
