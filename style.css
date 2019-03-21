@@ -6,8 +6,6 @@ body{margin: 0;padding: 0;}
   background-color: rgba(0,0,0,0.5);
 }
 .button {
-	width: 60px;
-	height: 60px;
 	background-color: #585858; 
 	border: 3px solid #000000;
 	border-radius: 5px;
@@ -17,9 +15,12 @@ body{margin: 0;padding: 0;}
   text-decoration: none;
 }
 .button__div{
-	height: auto;
-	padding: 345px 400px;
-	margin: auto;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 .overlay {
 	top: 0;
